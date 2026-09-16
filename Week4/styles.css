@@ -26,3 +26,7 @@ p{
 #blue{
     color:black
 }
+
+a:hover{
+    color:red
+}
