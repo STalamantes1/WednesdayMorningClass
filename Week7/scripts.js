@@ -97,7 +97,7 @@
 //Why FOR is cleaner: All loop logic is in one line, easier to read imo 
 
 //program that lets the user pick what number to count to
-// let num=Number(prompt("Pick a number: "));
+
 // for(let i=1; i<=num;i++){
 //     console.log(i);
 // }
@@ -105,11 +105,32 @@
 
 
 //classic triangle loop pattern 
-let triangle="";
-for(let line=1;line<=7;line++){
-    triangle+="*";
-    console.log(triangle)
+// let triangle="";
+// for(let line=1;line<=7;line++){
+//     triangle+="*";
+//     console.log(triangle)
+// }
+
+
+
+// let num=Number(prompt("Pick a number you want to count to: "));
+// let num2=Number(prompt("Pick a second number, that we will use to count by: "));
+// for(let i=0; i<=num; i+=num2){
+//     //condition inside loop 
+//     if(i%2===0){
+//         console.log('current number is even: '+i)
+        
+//     } 
+//     else{
+//         console.log("Number is odd: "+i)
+//     }
+
+// }
+
+
+let num3=Number(prompt("What number do you want to count down from: "))
+
+while(num3>0){
+    console.log("Count down number: "+num3);
+    num3--;
 }
-
-
-
